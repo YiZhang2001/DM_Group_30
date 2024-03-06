@@ -160,7 +160,7 @@ RSQLite::dbExecute(my_connection, "
 ```{sql connection=my_connection}
 select * from Product
 ```
-# add the foreign key "category_id" in Product
+# add foreign key "category_id" in Product
 ```{r}
 
 ```
