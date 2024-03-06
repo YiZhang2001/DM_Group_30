@@ -23,7 +23,7 @@ Warehouse <- readr::read_csv("data_upload/warehouse.csv")
 
 ```
 
-# Write them to the database 
+# Write data to the database 
 ```{r writebacktodb}
 RSQLite::dbWriteTable(my_connection,"Customer",Customer,overwrite=TRUE)
 RSQLite::dbWriteTable(my_connection,"Product",Product,overwrite=TRUE)
@@ -32,6 +32,7 @@ RSQLite::dbWriteTable(my_connection,"Warehouse",Warehouse,overwrite=TRUE)
 
 ```
 
+# Create the Category Entity
 ```{r writebacktodb}
 RSQLite::dbExecute(my_connection, "DROP TABLE IF EXISTS Category")
 
@@ -44,6 +45,7 @@ RSQLite::dbExecute(my_connection, "
   )
 ")
 ```
+# Insert the values in Category
 ```{r}
 RSQLite::dbExecute(my_connection, "
   INSERT INTO Category (category_id, category_name, parent_category_id, parent_category_name)
@@ -72,10 +74,13 @@ VALUES
 
 ```
 
+# view Category
 ```{sql connection=my_connection}
 select * from Category
 ```
+Category entity is done.
 
+# add the foreign key "category_id" in Product
 ```{r}
 RSQLite::dbExecute(my_connection, "
   ALTER TABLE Product
@@ -83,6 +88,7 @@ RSQLite::dbExecute(my_connection, "
 ")
 ```
 
+# update the value of "category_id" in Product
 ```{r}
 RSQLite::dbExecute(my_connection, "
   UPDATE Product
@@ -134,6 +140,7 @@ RSQLite::dbExecute(my_connection, "
 
 ```
 
+# set "category_id" in Product as FK
 ```{r}
 RSQLite::dbExecute(my_connection, "
   CREATE TABLE Product_New AS
@@ -148,7 +155,13 @@ RSQLite::dbExecute(my_connection, "
   ADD FOREIGN KEY (category_id) REFERENCES Category(category_id);
 ")
 ```
+
+# View Product
 ```{sql connection=my_connection}
 select * from Product
+```
+# add the foreign key "category_id" in Product
+```{r}
+
 ```
 
