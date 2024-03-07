@@ -23,6 +23,10 @@ jobs:
           key: ${{ runner.os }}-r-${{ hashFiles('**/lockfile') }}
           restore-keys: |
             ${{ runner.os }}-r-
+      - name: Install pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install pandoc
       - name: Install packages
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
