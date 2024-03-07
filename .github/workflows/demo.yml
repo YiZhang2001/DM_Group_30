@@ -33,7 +33,7 @@ jobs:
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr"))'
       - name: Execute R Markdown
         run: |
-          R -e 'rmarkdown::render("path/to/your/Creating_Data.Rmd")'
+          R -e 'rmarkdown::render("Creating_Data.Rmd")'
       - name: Commit files
         run: |
           git commit -m "Run the latest Rmd"
