@@ -23,14 +23,6 @@ Warehouse <- readr::read_csv("data_upload/warehouse.csv")
 
 ```
 
-# Write data to the database 
-```{r writebacktodb}
-RSQLite::dbWriteTable(my_connection,"Customer",Customer,overwrite=TRUE)
-RSQLite::dbWriteTable(my_connection,"Product",Product,overwrite=TRUE)
-RSQLite::dbWriteTable(my_connection,"Supplier",Supplier,overwrite=TRUE)
-RSQLite::dbWriteTable(my_connection,"Warehouse",Warehouse,overwrite=TRUE)
-
-```
 
 # Create the Category Entity
 ```{r writebacktodb}
@@ -79,6 +71,95 @@ VALUES
 select * from Category
 ```
 Category entity is done.
+
+# create Customrt entity
+```{R}
+RSQLite::dbExecute(my_connection, "DROP TABLE IF EXISTS Customer")
+
+RSQLite::dbExecute(my_connection, "
+CREATE TABLE 'Customer' ( 
+
+  'customer_id' INT PRIMARY KEY, 
+
+  'customer_firstname' VARCHAR(200) NOT NULL, 
+
+  'customer_lastname' VARCHAR(200) NOT NULL, 
+
+  'customer_gender' VARCHAR(200), 
+
+  'customer_date_of_birth' DATE, 
+
+  'customer_address_name' VARCHAR(200), 
+
+  'customer_postcode' VARCHAR(6),
+  
+  'customer_contact_number' INT,
+  
+  'customer_email_id' VARCHAR(200),
+  
+  'customer_password' VARCHAR(200),
+  
+  'customer_card_number' INT,
+  
+  'customer_CVV' INT,
+  
+  'customer_card_holder_name' VARCHAR(200),
+  
+  'customer_card_expire_date' DATE);
+
+")
+```
+
+# Write data to the database 
+```{r writebacktodb}
+RSQLite::dbWriteTable(my_connection,"Customer",Customer,overwrite=FALSE)
+```
+
+```{sql connection=my_connection}
+select * from Customer
+```
+
+# create Supplier entity
+```{R}
+RSQLite::dbExecute(my_connection, "DROP TABLE IF EXISTS Supplier")
+
+RSQLite::dbExecute(my_connection, "
+CREATE TABLE ‘Supplier’ (  
+
+  'supplier_id' INT PRIMARY KEY, 
+  
+  'supplier_name' VARCHAR(200),
+  
+  'supplier_contact_number' INT NOT NULL,
+  
+  'supplier_email_id' VARCHAR(200) NOT NULL, 
+
+  'supplier_address_name' VARCHAR(200), 
+
+  'supplier_postcode' VARCHAR(6),
+
+  'supplier_sort_code' VARCHAR(68),
+  
+  'supplier_account_name' VARCHAR(200),
+  
+  'supplier_account_number' INT );
+
+")
+```
+
+```{r writebacktodb}
+RSQLite::dbWriteTable(my_connection,"Supplier",Supplier,overwrite=FALSE)
+```
+
+```{sql connection=my_connection}
+select * from Supplier
+```
+
+```{r writebacktodb}
+RSQLite::dbWriteTable(my_connection,"Product",Product,overwrite=TRUE)
+RSQLite::dbWriteTable(my_connection,"Warehouse",Warehouse,overwrite=TRUE)
+
+```
 
 # add the foreign key "category_id" in Product
 ```{r}
@@ -160,6 +241,15 @@ RSQLite::dbExecute(my_connection, "
 ```{sql connection=my_connection}
 select * from Product
 ```
+
+
+
+
+
+
+
+
+
 # add foreign key "category_id" in Product
 ```{r}
 
