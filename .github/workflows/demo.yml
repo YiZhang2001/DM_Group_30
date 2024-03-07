@@ -27,9 +27,9 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr"))'
-      - name: Execute R script
+      - name: Execute Rmd
         run: |
-          RMarkdown Creating_Data.Rmd
+          Rmarkdown Creating_Data.Rmd
       - name: Add files
         run: |
           git config --global user.email "nikos.korfiatis@gmail.com"
