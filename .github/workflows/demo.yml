@@ -26,7 +26,7 @@ jobs:
       - name: Install packages
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          Rscript -e 'install.packages(c("RSQLite","readr","dplyr"，"rmarkdown"，"knitr"))'
+          Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr"))'
       - name: Execute R Markdown
         run: |
           R -e 'rmarkdown::render("path/to/your/Creating_Data.Rmd")'
