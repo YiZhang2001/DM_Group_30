@@ -29,12 +29,7 @@ jobs:
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr"))'
       - name: Execute Rmd
         run: |
-          Rmarkdown Creating_Data.Rmd
-      - name: Add files
-        run: |
-          git config --global user.email "nikos.korfiatis@gmail.com"
-          git config --global user.name "nkorf"
-          git add --all figures/
+          Rscript Creating_Data.Rmd
       - name: Commit files
         run: |
           git commit -m "Run the latest Rmd"
