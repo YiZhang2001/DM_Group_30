@@ -31,9 +31,9 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr"))'
-      - name: Execute R Markdown
+      - name: Execute R Script
         run: |
-          R -e 'rmarkdown::render("Creating_Data.Rmd")'
+          Rscript demo.R
       - name: Commit files
         run: |
           git commit -m "Run the latest Rmd"
