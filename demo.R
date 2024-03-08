@@ -21,3 +21,4 @@ RSQLite::dbExecute(my_connection, "
     parent_category_name VARCHAR(255)
   )
 ")
+
