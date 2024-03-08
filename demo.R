@@ -1,9 +1,3 @@
----
-title: "DM_Group_30"
-output: html_document
-date: "2024-03-05"
----
-  
 library(readr)
 library(RSQLite)
 library(dplyr)
