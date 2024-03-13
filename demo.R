@@ -398,6 +398,6 @@ openxlsx::writeData(wb, "Customer Distribution by Gender", result_analyzing_dist
 openxlsx::writeData(wb, "Customer Age Distribution", result_analyzing_distribution_of_customers_by_age_group)
 
 # Save the workbook
-openxlsx::saveWorkbook(wb, "analysis_results.xlsx", overwrite = TRUE)
+openxlsx::saveWorkbook(wb, "analysis_result/analysis_results.xlsx", overwrite = TRUE)
 
 
