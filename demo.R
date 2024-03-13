@@ -12,7 +12,6 @@ my_connection <- RSQLite::dbConnect(RSQLite::SQLite(),"database.db")
 
 
 # Physical Schema
-{r drop all tables in database}
 tables <- RSQLite::dbListTables(my_connection)
 
 # drop all tables
@@ -22,8 +21,6 @@ for (table in tables) {
 }
 
 
-
-{r create tables}
 RSQLite::dbExecute(my_connection,"
   CREATE TABLE 'Customers' (
     'customer_id' VARCHAR(4) PRIMARY KEY,
