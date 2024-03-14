@@ -1,4 +1,4 @@
-name: Update Repo with result
+name: Assignment
 
 on:
 #  schedule:
@@ -30,16 +30,17 @@ jobs:
       - name: Install packages
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
-          Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx"))'
+          Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx","ggplot2","scales"))'
       - name: Execute R Script
         run: |
-          Rscript demo.R
+          Rscript Assignment_Rscript.R
       - name: Add files
         run: |
           git config --global user.email "bellyzhang0306@outlook.com"
           git config --global user.name "YiZhang2001"
           git add database.db
           git add analysis_results.xlsx
+          git add analysis_graphs/*.png
       - name: Commit files
         run: |
           git commit -m "Run the latest Rscritp"
