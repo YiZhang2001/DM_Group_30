@@ -549,7 +549,6 @@ voucher_usage <- RSQLite::dbGetQuery(my_connection, "
 ")
 
 # Use mutate to calculate row number and mark the top two most used vouchers as 'highlight'
-voucher_usage <- voucher_usage %>%
   voucher_usage <- voucher_usage %>%
   mutate(highlight = ifelse(row_number() <= 2, "highlight", "normal"))
 
