@@ -1,0 +1,26 @@
+﻿parent_category_id,category_id,category_name,category_description
+CG1,CG101,Fruits,Fresh and juicy fruits bursting with natural flavors.
+CG1,CG102,Vegetables,Crisp and vibrant vegetables packed with nutrients.
+CG1,CG103,Herbs,Fragrant and aromatic herbs perfect for enhancing dishes.
+CG2,CG201,Beef,Premium cuts of beef known for their rich flavor and tenderness.
+CG2,CG202,Pork,Succulent pork products offering a variety of savory options.
+CG2,CG203,Chicken,Tender and versatile chicken products ideal for any meal.
+CG2,CG204,Shrimp,Delicate and flavorful shrimp sourced from quality seafood.
+CG3,CG301,Chips,Crunchy and satisfying chips available in various tasty flavors.
+CG3,CG302,Candy,Sweet treats offering a range of delightful flavors and textures.
+CG3,CG303,Chocolate,Indulgent chocolate products crafted for ultimate enjoyment.
+CG3,CG304,Nuts,Nutritious and crunchy nuts providing a satisfying snack option.
+CG4,CG401,Water,Refreshing and hydrating bottled water for on-the-go consumption.
+CG4,CG402,Soft Drinks,Fizzy and flavorful soft drinks to quench your thirst.
+CG4,CG403,Juices,Freshly squeezed juices bursting with fruity goodness.
+CG4,CG404,Alcohol,A selection of alcoholic beverages for social gatherings or relaxation.
+CG4,CG405,Coffee,Rich and aromatic coffee blends for that perfect morning pick-me-up.
+CG5,CG501,Mike,Creamy and nutritious milk products for everyday consumption.
+CG5,CG502,Cheese,Artisanal cheeses offering a variety of tastes and textures.
+CG5,CG503,Butter,Smooth and creamy butter perfect for cooking and baking.
+CG5,CG504,Egg,Farm-fresh eggs providing a versatile ingredient for cooking.
+0,CG1,Fresh Products,High-quality fresh produce and dairy items.
+0,CG2,Meat,Various meat products sourced from trusted suppliers.
+0,CG3,Snacks,Convenient and tasty snacks for satisfying cravings.
+0,CG4,Drinks,A range of beverages to suit every taste and occasion.
+0,CG5,Dairy products,A selection of dairy essentials for a well-rounded diet.

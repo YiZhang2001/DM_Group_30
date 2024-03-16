@@ -1,0 +1,81 @@
+﻿product_id,product_name,product_price,product_quantity,product_description,category_id,supplier_id
+APL8923,Apple (Red Delicious),1.5,1500,"Crisp and juicy apples with a sweet flavor, perfect for snacking or baking.",CG101,SP0001GFC
+BAN4156,Banana (Cavendish),0.5,120,"Creamy and sweet bananas, ideal for adding to smoothies or enjoying as a quick and healthy snack.",CG101,SP0001GFC
+ORA7824,Orange (Navel),0.8,180,"Refreshing and citrusy oranges, great for juicing or simply enjoying as a healthy snack.",CG101,SP0001GFC
+STR6732,Strawberry (Sweet Charlie),2,250,"Plump and succulent strawberries with a sweet flavor, perfect for adding to desserts or salads.",CG101,SP0001GFC
+CAR2198,Carrot (Nantes),0.3,80,"Crunchy and sweet carrots, versatile for use in salads, soups, or as a healthy snack.",CG102,SP0001GFC
+TOM5643,Tomato (Beefsteak),1,180,"Juicy and flavorful tomatoes, ideal for slicing and adding to sandwiches or salads.",CG102,SP0001GFC
+BRO3251,Broccoli (Calabrese),1.2,250,"Tender and nutritious broccoli florets, great for steaming, roasting, or adding to stir-fries.",CG102,SP0001GFC
+SPI1472,Spinach (Baby Leaf),1.5,100,"Delicate and nutritious baby spinach leaves, perfect for salads, smoothies, or sautéing.",CG102,SP0001GFC
+BAS9145,Basil (Genovese),1.8,50,"Fragrant and aromatic basil leaves, essential for making pesto or adding to pasta dishes.",CG103,SP0001GFC
+PAR5298,Parsley (Italian Flat-leaf),1.2,50,"Fresh and vibrant Italian flat-leaf parsley, ideal for garnishing dishes or adding to sauces.",CG103,SP0001GFC
+MIN6587,Mint (Spearmint),1.5,40,"Cool and refreshing spearmint leaves, perfect for making mint tea or adding to cocktails.",CG103,SP0001GFC
+ROS3861,Rosemary (Common),1.8,30,"Woody and aromatic rosemary sprigs, great for seasoning meats, potatoes, or bread.",CG103,SP0001GFC
+RIB7249,Ribeye Steak (Prime Grade),15,300,"Juicy and flavorful ribeye steak, known for its rich marbling and exceptional taste when grilled.",CG201,SP0002MMD
+GRO1857,Ground Beef (80/20 Lean to Fat Ratio),8,500,"Versatile and flavorful ground beef, perfect for making burgers, meatballs, or tacos.",CG201,SP0002MMD
+BEE4178,Beef Tenderloin (Filet Mignon),20,400,"Tender and succulent filet mignon, prized for its buttery texture and melt-in-your-mouth flavor.",CG201,SP0002MMD
+BEE8923,"Beef Brisket (Whole, Untrimmed)",12,1000,"Rich and flavorful beef brisket, ideal for slow-cooking or smoking to achieve tender perfection.",CG201,SP0002MMD
+POR6315,Pork Chops (Bone-In),6.5,600,"Juicy and tender pork chops with the bone left in, perfect for grilling, roasting, or frying.",CG202,SP0002MMD
+POR2175,Pork Tenderloin (Center-Cut),8,500,"Lean and tender pork tenderloin, great for marinating and grilling or roasting whole.",CG202,SP0002MMD
+POR9842,Pork Belly (Skin-On),9.5,700,"Succulent and flavorful pork belly with the skin left on, ideal for braising or roasting until crispy.",CG202,SP0002MMD
+HAM5298,"Ham (Smoked, Bone-In)",10,800,"Smoky and savory ham with the bone left in, perfect for slicing and serving as a main dish or sandwich.",CG202,SP0002MMD
+CHI3817,"Chicken Breast (Boneless, Skinless)",4.5,300,"Lean and versatile chicken breast, perfect for grilling, baking, or sautéing in a variety of dishes.",CG203,SP0002MMD
+CHI9513,"Chicken Thighs (Bone-In, Skin-On)",3.5,350,"Juicy and flavorful chicken thighs with the bone and skin intact, ideal for roasting or braising.",CG203,SP0002MMD
+CHI7218,Chicken Wings (Party Style),5,400,"Crispy and flavorful chicken wings, perfect for serving as an appetizer or party snack.",CG203,SP0002MMD
+WHO4821,Whole Chicken (Free-Range),12,1000,"Tender and juicy whole chicken, ideal for roasting or grilling for a delicious family meal.",CG203,SP0002MMD
+JUM1568,"Jumbo Shrimp (Peeled, Deveined)",20,500,"Plump and succulent jumbo shrimp, peeled and deveined for convenience, perfect for grilling or sautéing.",CG204,SP0002MMD
+TIG7291,Tiger Shrimp (Wild-Caught),18,400,"Succulent tiger shrimp, wild-caught and bursting with flavor. Perfect for grilling, sautéing, or adding to pasta dishes.",CG204,SP0002MMD
+WHI4826,White Shrimp (Farm-Raised),15,300,"Delicate white shrimp, farm-raised for exceptional taste and texture. Ideal for grilling, stir-frying, or tossing into salads.",CG204,SP0002MMD
+BLA3198,"Black Tiger Shrimp (Large, Head-On)",22,600,"Bold black tiger shrimp, large and flavorful with striking black stripes. Great for grilling, broiling, or adding to seafood boils.",CG204,SP0002MMD
+POT7163,Potato Chips (Classic Salted),3,200,"Crunchy and savory potato chips seasoned with classic salt, perfect for snacking on their own or with dips.",CG301,SP0003SHC
+TOR5847,Tortilla Chips (Restaurant Style),2.5,250,"Crispy and flavorful tortilla chips, perfect for dipping into salsa, guacamole, or melted cheese.",CG301,SP0003SHC
+BBQ9154,BBQ Chips (Hickory Smoked),3,200,"Smoky and tangy BBQ-flavored potato chips, ideal for enjoying at picnics, parties, or as a snack anytime.",CG301,SP0003SHC
+SAL4826,Salt & Vinegar Chips (Kettle Cooked),3.5,180,"Tangy and salty potato chips with a hint of vinegar, kettle-cooked for extra crunch and flavor.",CG301,SP0003SHC
+GUM9518,Gummy Bears (Assorted Flavors),2,100,"Chewy and fruity gummy bears in assorted flavors, perfect for satisfying your sweet tooth.",CG302,SP0003SHC
+MIN6742,Mint Candy (Deep Blue),1,50,"Cool and refreshing mint-flavored candies, ideal for freshening your breath or enjoying as a sweet treat.",CG302,SP0003SHC
+SOU4815,Sour Patch Kids (Original),2.5,120,"Tangy and chewy sour candies in fun kid-shaped figures, perfect for those who love a sour-sweet flavor experience.",CG302,SP0003SHC
+LIC2156,Licorice (Red Twists),2,80,"Sweet and chewy red licorice twists, a classic candy favorite for both kids and adults.",CG302,SP0003SHC
+MIL7815,Milk Chocolate Bar (Hershey's),3,200,"Creamy and rich milk chocolate bar from Hershey's, perfect for indulging in a sweet chocolatey treat.",CG303,SP0003SHC
+DAR3985,Dark Chocolate Bar (Lindt Excellence),4,180,"Luxurious and decadent dark chocolate bar from Lindt Excellence, ideal for dark chocolate lovers.",CG303,SP0003SHC
+CHO5126,Chocolate Covered Almonds (Blue Diamond),5,250,"Crunchy almonds coated in rich milk chocolate, perfect for satisfying cravings for both chocolate and nuts.",CG303,SP0003SHC
+CHO8512,Chocolate Truffles (Godiva),10,150,"Decadent and luxurious chocolate truffles from Godiva, crafted with premium chocolate for an indulgent treat.",CG303,SP0003SHC
+ALM3698,"Almonds (Whole, Raw)",7,300,"Nutty and crunchy whole almonds, packed with protein and healthy fats, perfect for snacking or baking.",CG304,SP0003SHC
+CAS9812,Cashew Butter (Natural),8,200,"Creamy and rich cashew butter made from natural, unroasted cashews, perfect for spreading on toast or fruit.",CG304,SP0003SHC
+PEC4821,Pecan Brittle (Gourmet),6,180,"Crunchy and buttery pecan brittle, made with premium pecans and rich caramel for a deliciously addictive treat.",CG304,SP0003SHC
+PIS2178,"Pistachio Kernels (Raw, Unsalted)",9,250,"Nutty and flavorful pistachio kernels, raw and unsalted for a wholesome and nutritious snack.",CG304,SP0003SHC
+BOT5314,Bottled Water (Spring Water),1,500,"Refreshing and pure spring water, bottled at the source for a clean and crisp taste.",CG401,SP0004SSB
+SPA2196,Sparkling Water (Perrier),1.5,750,"Bubbly and effervescent sparkling water from Perrier, perfect for refreshing and hydrating anytime.",CG401,SP0004SSB
+FLA8217,Flavored Water (Hint Water),2,600,"Light and refreshing flavored water from Hint Water, infused with natural fruit essences for a hint of flavor.",CG401,SP0004SSB
+SPR4152,Spring Water (Evian),2.5,1000,"Naturally pure and refreshing spring water from Evian, sourced from the French Alps for exceptional quality.",CG401,SP0004SSB
+COL8215,Cola (Coca-Cola),1.5,500,"Classic and iconic cola soda from Coca-Cola, with a crisp and refreshing taste that's always satisfying.",CG402,SP0004SSB
+LEM4821,Lemon-Lime Soda (Sprite),1.5,500,"Zesty and citrusy lemon-lime soda from Sprite, perfect for quenching your thirst on a hot day.",CG402,SP0004SSB
+ROO2156,Root Beer (A&W),2,500,"Smooth and creamy root beer from A&W, with a rich and frothy flavor that's perfect for root beer floats.",CG402,SP0004SSB
+GIN3698,Ginger Ale (Canada Dry),1.8,500,"Spicy and aromatic ginger ale from Canada Dry, with a crisp and refreshing taste that's perfect on its own or as a mixer.",CG402,SP0004SSB
+ORA7195,Orange Juice (Tropicana),3.5,1000,"Fresh and tangy orange juice from Tropicana, made from 100% pure squeezed oranges for a burst of vitamin C.",CG403,SP0004SSB
+APP5826,Apple Juice (Minute Maid),3,1000,"Sweet and delicious apple juice from Minute Maid, made from ripe, hand-picked apples for natural sweetness.",CG403,SP0004SSB
+CRA6315,Cranberry Juice (Ocean Spray),2.5,750,"Tart and refreshing cranberry juice from Ocean Spray, made from ripe cranberries for a burst of fruity flavor.",CG403,SP0004SSB
+PIN9154,Pineapple Juice (Dole),2,750,"Tropical and tangy pineapple juice from Dole, made from fresh pineapples for a taste of the islands.",CG403,SP0004SSB
+BEE9518,Beer (Budweiser),5,500,"Crisp and refreshing lager beer from Budweiser, with a clean and balanced flavor that's perfect for any occasion.",CG404,SP0004SSB
+WIN6742,Wine (Cabernet Sauvignon),15,750,"Rich and robust Cabernet Sauvignon wine, known for its bold flavors of dark fruit and spice, perfect for pairing with hearty dishes.",CG404,SP0004SSB
+VOD4815,Vodka (Smirnoff),20,750,"Smooth and versatile vodka from Smirnoff, perfect for mixing into cocktails or enjoying straight on the rocks.",CG404,SP0004SSB
+WHI2156,Whiskey (Jack Daniel's),25,750,"Smooth and mellow whiskey from Jack Daniel's, with notes of caramel, vanilla, and oak for a classic taste.",CG404,SP0004SSB
+ARA9812,Arabica Coffee Beans (Starbucks),12,500,"Premium Arabica coffee beans from Starbucks, roasted to perfection for a rich and flavorful brew.",CG405,SP0004SSB
+ESP4821,Espresso Ground Coffee (Lavazza),10,250,"Bold and intense espresso ground coffee from Lavazza, perfect for making espresso shots or lattes with a rich crema.",CG405,SP0004SSB
+FRE2196,French Roast Coffee (Peet's Coffee),15,400,"Dark and smoky French roast coffee from Peet's Coffee, with a bold and robust flavor that's perfect for coffee enthusiasts.",CG405,SP0004SSB
+COF2456,Coffee Decaf (Folgers),8,250,"Smooth and satisfying decaffeinated coffee from Folgers, with all the flavor and aroma of regular coffee but without the caffeine.",CG405,SP0004SSB
+WHO2178,Whole Milk (Organic Valley),3,1000,"Creamy and nutritious whole milk from Organic Valley, perfect for drinking on its own or adding to cereal or recipes.",CG501,SP0005MMC
+MIL3456,Milk Low Fat (Horizon),2.5,1000,"Reduced-fat 2% milk from Horizon, with a creamy texture and rich taste that's perfect for enjoying anytime.",CG501,SP0005MMC
+ALM2156,Almond Milk (Silk),4,1000,"Creamy and dairy-free almond milk from Silk, made from real almonds for a delicious alternative to dairy milk.",CG501,SP0005MMC
+SOY4826,Soy Milk (Silk),4.5,1000,"Nutty and smooth soy milk from Silk, rich in protein and essential nutrients for a healthy and nutritious beverage.",CG501,SP0005MMC
+CHE7195,Cheddar Cheese (Tillamook),6,500,"Sharp and tangy cheddar cheese from Tillamook, aged for a bold flavor that's perfect for snacking or melting.",CG502,SP0005MMC
+MOZ5826,Mozzarella Cheese (Galbani),7,500,"Creamy and mild mozzarella cheese from Galbani, perfect for adding to pizzas, pastas, or salads for a deliciously cheesy flavor.",CG502,SP0005MMC
+SWI6315,Swiss Cheese (Emmi),8,500,"Nutty and flavorful Swiss cheese from Emmi, with a smooth and creamy texture that's perfect for melting or snacking.",CG502,SP0005MMC
+PEP9154,Pepper Jack Cheese (Tillamook),6.5,500,"Spicy and creamy pepper jack cheese from Tillamook, with bits of jalapeño peppers for a kick of heat and flavor.",CG502,SP0005MMC
+SAL9518,Salted Butter (Land O'Lakes),5,250,"Creamy and rich salted butter from Land O'Lakes, perfect for spreading on toast, baking, or cooking.",CG503,SP0005MMC
+UNS6742,Unsalted Butter (Kerrygold),6,250,"Smooth and creamy unsalted butter from Kerrygold, made from the milk of grass-fed cows for a rich and indulgent flavor.",CG503,SP0005MMC
+CLA4815,Clarified Butter (Ghee Easy),8,250,"Nutty and aromatic clarified butter from Ghee Easy, ideal for sautéing, frying, or adding richness to dishes.",CG503,SP0005MMC
+EUR2156,European Style Butter (Plugrá),7.5,250,"Rich and velvety European-style butter from Plugrá, with a high butterfat content for superior flavor and texture.",CG503,SP0005MMC
+LAR3698,Large Eggs (Organic Valley),4,500,"Fresh and wholesome large eggs from Organic Valley, perfect for cooking or baking in a wide variety of dishes.",CG504,SP0005MMC
+BRO9812,Brown Eggs (Happy Egg Co.),3.5,500,"Nutritious and flavorful brown eggs from Happy Egg Co., laid by free-range hens for superior taste and quality.",CG504,SP0005MMC
+FRE4821,Free-range Eggs (Vital Farms),5,500,"Pasture-raised free-range eggs from Vital Farms, with bright orange yolks and a rich, savory flavor that's unbeatable.",CG504,SP0005MMC
+ORG2178,Organic Eggs (Eggland's Best),6,500,"Certified organic eggs from Eggland's Best, with superior nutrition and taste for a healthy and delicious breakfast.",CG504,SP0005MMC
