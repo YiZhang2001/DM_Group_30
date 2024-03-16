@@ -31,7 +31,7 @@ jobs:
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx","ggplot2","scales"))'
       - name: Execute R Script
         run: |
-          Rscript Assignment_Rscript.R
+          Rscript R/Assignment_Rscript.R
       - name: Add files
         run: |
           git config --global user.email "bellyzhang0306@outlook.com"
