@@ -747,7 +747,9 @@ openxlsx::writeData(wb, 'Customer Distribution by Gender', result_analyzing_dist
 openxlsx::writeData(wb, 'Customer Age Distribution', result_analyzing_distribution_of_customers_by_age_group)
 
 ## Save the workbook
-openxlsx::saveWorkbook(wb, 'Analysis_Results/analysis_results.xlsx', overwrite = TRUE)
+this_filename_date <- as.character(Sys.Date())
+this_filename_time <- as.character(format(Sys.time(), format = '%H_%M'))
+openxlsx::saveWorkbook(wb, paste0('Analysis_Results/analysis_results_',this_filename_date,'_',this_filename_time,'.xlsx'), overwrite = TRUE)
 
 sales <- dbGetQuery(my_connection, '
   SELECT product_id, SUM(order_quantity) AS total_sales
