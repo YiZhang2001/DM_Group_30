@@ -37,7 +37,7 @@ jobs:
           git config --global user.email "bellyzhang0306@outlook.com"
           git config --global user.name "YiZhang2001"
           git add database.db
-          git add analysis_results.xlsx
+          git add Analysis_Results/*.xlsx
           git add analysis_graphs/*.png
       - name: Commit files
         run: |
