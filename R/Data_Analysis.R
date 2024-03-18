@@ -6,6 +6,8 @@ library(openxlsx)
 library(ggplot2)
 library(scales)
 
+my_connection <- RSQLite::dbConnect(RSQLite::SQLite(),"database.db")
+
 ## Analysis
 ### Top 10 Products Based on Quantity
 top_10_product_based_on_quantity <- function() {
