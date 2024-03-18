@@ -34,7 +34,7 @@ jobs:
           Rscript R/Data_Validation_and_Insertion.R
       - name: Data Analysis
         run: |
-          Rscript R/Data_Anlaysis.R
+          Rscript R/Data_Analysis.R
       - name: Add files
         run: |
           git config --global user.email "bellyzhang0306@outlook.com"
