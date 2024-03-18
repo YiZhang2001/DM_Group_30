@@ -29,9 +29,9 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx","ggplot2","scales"))'
-      - name: Data Validation and Insertion
+      - name: Data Validation and Update
         run: |
-          Rscript R/Data_Validation_and_Update.R
+          Rscript R/Data_Validation_and_update.R
       - name: Data Analysis
         run: |
           Rscript R/Data_Analysis.R
