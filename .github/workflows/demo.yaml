@@ -29,9 +29,12 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx","ggplot2","scales"))'
-      - name: Execute R Script
+      - name: Data Validation and Insertion
         run: |
-          Rscript R/DM_Rscript.R
+          Rscript R/Data_Validation_and_Insertion.R
+      - name: Data Analysis
+        run: |
+          Rscript R/Data_Anlaysis.R
       - name: Add files
         run: |
           git config --global user.email "bellyzhang0306@outlook.com"
