@@ -447,7 +447,7 @@ voucher_usage <- merge(voucher_usage, voucher_names, by = 'voucher_id')
 this_filename_date <- as.character(Sys.Date())
 this_filename_time <- as.character(format(Sys.time(), format = '%H_%M'))
 
-sub_folder_name <- paste0('Analysis_Graphs/',this_filename_date,'_',this_filename_time)
+sub_folder_name <- paste0('analysis_graphs/',this_filename_date,'_',this_filename_time)
 dir.create(sub_folder_name)
 
 ggsave(paste0(sub_folder_name,'/gender_pie_chart.png'), plot = gender_pie_chart, width = 8, height = 6, units = 'in')
