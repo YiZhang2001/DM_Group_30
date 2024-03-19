@@ -31,7 +31,7 @@ jobs:
           Rscript -e 'install.packages(c("RSQLite","readr","dplyr","rmarkdown","knitr","readxl","openxlsx","ggplot2","scales"))'
       - name: Data Validation and Update
         run: |
-          Rscript R/Data_Validation_and_update.R
+          Rscript R/Data_Validation_and_Update_Database.R
       - name: Data Analysis
         run: |
           Rscript R/Data_Analysis.R
