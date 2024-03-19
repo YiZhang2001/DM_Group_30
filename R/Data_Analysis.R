@@ -398,11 +398,11 @@ time_series <- RSQLite::dbGetQuery(my_connection, "
         order_date;
 ")
 
-time_series$order_date <- as.POSIXct(time_series$order_date, origin = "1970-01-01")
+time_series$order_date <- as.POSIXct(time_series$order_date, format = "%d/%m/%Y")
 
 ( time_series_of_order_daily <- ggplot(time_series, aes(x = order_date, y = order_amount)) +
     geom_line() +
-    labs(title = 'time series of order daily for 3 months',
+    labs(title = 'time series of order daily for 6 months',
          x = 'order date',
          y = 'order amount')+
     theme_minimal()+
